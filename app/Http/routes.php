@@ -14,7 +14,5 @@
 Route::get('/', function () {
     return view('home');
 });
-Route::group(['middleware'=>['web']],function (){
-    Route::resource('/contact', 'HomeController',['only'=>['store']]);
-});
+Route::resource('/contact', 'HomeController',['only'=>['store']]);
 

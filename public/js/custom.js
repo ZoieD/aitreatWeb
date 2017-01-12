@@ -1,4 +1,18 @@
 $(document).ready(function() {
+
+    var buttons = { previous:$('#jslidernews1 .button-previous') ,
+        next:$('#jslidernews1 .button-next') };
+    $lof_slider = $('#jslidernews1').lofJSidernews( { interval : 3000,
+        easing			: 'easeInOutQuad',
+        duration		: 1200,
+        auto		 	: true,
+        maxItemDisplay  : 3,
+        startItem:0,
+        navPosition     : 'horizontal',
+        navigatorHeight : null,
+        navigatorWidth  : null,
+        buttons:buttons} );
+
     //four slide
     $(".four-slide").owlCarousel({
       autoPlay: 3000, //Set AutoPlay to 3 seconds
