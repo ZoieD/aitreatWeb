@@ -585,27 +585,36 @@ section.recent-event{
 
 .event-box{
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .event-box p{
     color: #f0f0f0;
     font-size: 13px; 
-    max-width: 250px;
-    margin-bottom: 25px
+    max-width: 280px;
+    margin-bottom: 4px;
+    text-align: left;
 }
+.event-box d{
+    color: #f0f0f0;
+    font-size: 13px;
+    text-align: left;
+}
+
 .event-box h3{
-    color: #fff; 
+    color: #fff;
     text-transform: uppercase;
-    font-size: 20px; 
-    font-weight: 600; 
+    font-size: 20px;
+    font-weight: 600;
     word-spacing: 5px;
-    margin-bottom: 20px; 
+    margin-bottom: 10px;
+    text-align: justify;
+
 }
 
 .event-box a i.lnr{
     font-size: 12px;
-    margin-left: 5px;
+    margin-left: 0px;
 }
 
 .event-img img{
@@ -805,12 +814,12 @@ section.recent-event{
 }
 
 .our-experts .section-title{
-    color: #fff;
+    color: #ffff00;
     margin-top: 30px;
 }
 
 .our-experts p{
-    color: #f0f0f0;
+    color: #fff;
     margin-bottom: 25px;
 }
 
@@ -844,7 +853,7 @@ h3.expert-name {
 strong.expert-tag{
     font-weight: 400;
     font-style: italic;
-    color: #808080;
+    color: #fff;
     font-size: 13px;
 }
 
